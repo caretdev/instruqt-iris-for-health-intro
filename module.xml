@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="iris-for-health-intro.ZPM">
+    <Module>
+      <Name>iris-for-health-intro</Name>
+      <Version>1.0.0</Version>
+      <Description>Introduction to IRIS for Health, work with HL7 over TCP and HTTP</Description>
+      <Packaging>module</Packaging>
+      <SourcesRoot>src</SourcesRoot>
+      <Resource Name="interop.PKG"/>
+      <Invoke Class="Ens.Director" Method="SetAutoStart" CheckStatus="true">
+        <Arg>interop.FoundationProduction</Arg>
+      </Invoke>
+    </Module>
+  </Document>
+</Export>

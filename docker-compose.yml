@@ -1,0 +1,13 @@
+version: '3'
+services:
+  iris:
+    build: .
+    ports:
+      - 52883:52773
+      - 9980:9980
+      - 9981:5000
+    volumes:
+      - .:/home/irisowner/app/
+    environment:
+      - IRIS_USERNAME=_SYSTEM
+      - IRIS_PASSWORD=SYS

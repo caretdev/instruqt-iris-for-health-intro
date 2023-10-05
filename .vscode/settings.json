@@ -1,0 +1,18 @@
+{
+  "objectscript.conn": {
+    "active": false,
+    "host": "localhost",
+    "port": 52883,
+    "ns": "FHIRSERVER",
+    "username": "_SYSTEM",
+    "password": "SYS"
+  },
+  "hl7tools.DefaultListenerPort": 5001,
+  "hl7tools.FavouriteRemoteHosts": [
+    {
+      "Description": "IRIS",
+      "Hostname": "localhost",
+      "Port": 9981
+    }
+  ]
+}
