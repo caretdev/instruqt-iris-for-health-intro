@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "robholme.hl7tools",
+    "intersystems.language-server",
+    "intersystems-community.vscode-objectscript",
+    "humao.rest-client"
+  ]
+}
